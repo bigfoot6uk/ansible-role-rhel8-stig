@@ -104,12 +104,12 @@ disable_ctrlaltdel_reboot: true
 disable_host_auth: true
 disable_strategy: true
 disable_users_coredumps: true
-enable_fips_mode: true
+enable_fips_mode: false
 enable_strategy: true
 ensure_gpgcheck_globally_activated: true
 ensure_gpgcheck_local_packages: true
 ensure_gpgcheck_never_disabled: true
-ensure_redhat_gpgkey_installed: true
+ensure_redhat_gpgkey_installed: false
 grub2_audit_argument: true
 grub2_audit_backlog_limit_argument: true
 grub2_disable_interactive_boot: true
@@ -138,9 +138,9 @@ mount_option_dev_shm_noexec: true
 mount_option_dev_shm_nosuid: true
 mount_option_home_nodev: true
 mount_option_home_nosuid: true
-mount_option_tmp_nodev: true
-mount_option_tmp_noexec: true
-mount_option_tmp_nosuid: true
+mount_option_tmp_nodev: false
+mount_option_tmp_noexec: false
+mount_option_tmp_nosuid: false
 mount_option_var_log_audit_nodev: true
 mount_option_var_log_audit_noexec: true
 mount_option_var_log_audit_nosuid: true
