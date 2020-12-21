@@ -105,7 +105,7 @@ disable_ctrlaltdel_reboot: true
 disable_host_auth: true
 disable_strategy: true
 disable_users_coredumps: true
-enable_fips_mode: true
+enable_fips_mode: false
 enable_strategy: true
 ensure_gpgcheck_globally_activated: true
 ensure_gpgcheck_local_packages: true
